@@ -2,10 +2,12 @@
 
 body {
     background-color: rgba(7,7,64,100);
+    text-align: center;
 }
 
 h1 {
     color: aqua;
+    font-size:  80px;
 }
 
 a {
@@ -13,7 +15,31 @@ a {
 }
 
 ul {
+    box-sizing: border-box;
     color: aliceblue;
+    border: 3px dotted lightblue;
+    font-size: 40px;
+    margin: 60px 500px;
+    padding: 40px;
 }
 
+.listone{
+    display: block;
+    margin-bottom: 30px;
+    border: 2px dotted rebeccapurple;
+    padding: 8px
+}
+
+.listwo{
+    display: block;
+    border: 2px dotted rebeccapurple;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+
+.listhird{
+    display: block;
+    border: 2px dotted rebeccapurple;
+    padding: 8px
+}
 
